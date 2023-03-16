@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>ColorCycle</title>
+  </head>
+  <body>
+    <main>
+      <div class="box-fill"></div>
+      <div class="wrap-color-input">
+        <label for="" style="text-transform: uppercase">rgb</label>
+        <input type="number" id="color-input" class="red" max="100" />
+        <input type="number" id="color-input" class="green" max="100" />
+        <input type="number" id="color-input" class="blue" max="100" />
+        <div class="error-message1" style="font-weight: 600"></div>
+      </div>
+      <div class="duration">
+        <label for="duration" style="font-weight: 600">Duration</label>
+        <input type="number" id="duration" class="duration" max="4000" />
+        <div class="error-message2" style="font-weight: 600"></div>
+      </div>
+      <button class="start">Start</button>
+      <button class="stop">Stop</button>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
